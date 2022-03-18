@@ -1,0 +1,5 @@
+nav, header, section, footer{
+    min-width: 320px;
+    max-width: 1366px;
+    background-color: cyan;
+}
