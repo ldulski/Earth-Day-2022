@@ -1,5 +1,31 @@
 nav, header, section, footer{
     min-width: 320px;
     max-width: 1366px;
-    background-color: cyan;
+    margin: 0 auto;
+    /* background-color: cyan; */
+}
+/* temp styles */
+.abf-wrapper{
+    background-color: pink;
+}
+.soil-wrapper{
+    background-color: forestgreen;
+}
+.herbs-wrapper{
+    background-color: crimson;
+}
+.materials-wrapper{
+    background-color: darkorange;
+}
+.bcb-wrapper{
+    background-color: goldenrod;
+}
+.video-wrapper{
+    background-color: antiquewhite;
+}
+.crafts-wrapper{
+    background-color: cornflowerblue;
+}
+.cta-wrapper{
+    background-color: aquamarine;
 }
