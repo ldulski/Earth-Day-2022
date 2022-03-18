@@ -1,8 +1,10 @@
+html{
+    font-size: 100%;
+}
 nav, header, section, footer{
     min-width: 320px;
     max-width: 1366px;
     margin: 0 auto;
-    /* background-color: cyan; */
 }
 /* temp styles */
 .abf-wrapper{
