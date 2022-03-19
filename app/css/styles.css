@@ -25,11 +25,11 @@ nav, header, section, footer{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #1570cd;
 }
-.subscribe button:hover {
+.subscribe-button:hover {
 	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
 	background-color:#1e62d0;
 }
-.subscribe button:active {
+.subscribe-button:active {
 	position:relative;
 	top:1px;
 }
