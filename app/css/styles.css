@@ -4,11 +4,17 @@ html{
 nav, header, section, footer{
     min-width: 320px;
     max-width: 1366px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
     margin: 0 auto;
 }
 /* temp styles */
 .abf-wrapper{
     background-color: pink;
+}
+div{
+	padding: 10px;
 }
 .subscribe-button {
 	box-shadow:inset 0px 1px 0px 0px #97c4fe;
