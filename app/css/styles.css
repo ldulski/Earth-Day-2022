@@ -9,9 +9,7 @@ nav, header, section, footer{
 	justify-content: space-between;
     margin: 0 auto;
 }
-header{
-	background-image: url(/images/hero_image_desktop.jpg);
-}
+/* typography */
 /* temp styles */
 .abf-wrapper{
     background-color: pink;
@@ -19,6 +17,7 @@ header{
 div{
 	padding: 10px;
 }
+/* buttons */
 .subscribe-button {
 	box-shadow:inset 0px 1px 0px 0px #97c4fe;
 	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
@@ -42,6 +41,7 @@ div{
 	position:relative;
 	top:1px;
 }
+/* wrappers */
 .soil-wrapper{
     background-color: forestgreen;
 }
