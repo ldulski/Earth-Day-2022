@@ -60,3 +60,10 @@ div{
 .cta-wrapper{
     background-color: aquamarine;
 }
+
+/* media queries */
+@media only screen and (max-width: 400px){
+	header{
+		background-color: blueviolet;
+	}
+}
