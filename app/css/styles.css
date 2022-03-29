@@ -8,6 +8,13 @@ nav, header, section, footer{
 	flex-wrap: wrap;
 	justify-content: space-between;
     margin: 0 auto;
+	/* background-color: #ffffff; */
+}
+h1, header{
+	background-color: darkorange;
+}
+ul{
+	list-style-type: none;
 }
 /* typography */
 /* temp styles */
