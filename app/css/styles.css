@@ -8,16 +8,18 @@ nav, header, section, footer{
 	flex-wrap: wrap;
 	justify-content: space-between;
     margin: 0 auto;
-	/* background-color: #ffffff; */
-}
-h1, header{
-	background-color: darkorange;
+	background-color: lightgrey;
 }
 ul{
 	list-style-type: none;
 }
 /* typography */
 /* temp styles */
+h1, h2,
+header, p {
+  background-color: powderblue;
+  margin-bottom: 8px;
+}
 .abf-wrapper{
     background-color: pink;
 }
