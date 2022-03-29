@@ -9,6 +9,9 @@ nav, header, section, footer{
 	justify-content: space-between;
     margin: 0 auto;
 }
+header{
+	background-image: url(/images/hero_image_desktop.jpg);
+}
 /* temp styles */
 .abf-wrapper{
     background-color: pink;
@@ -64,6 +67,6 @@ div{
 /* media queries */
 @media only screen and (max-width: 400px){
 	header{
-		background-color: blueviolet;
+		background-image: url(/images/hero_image_mobile.jpg);
 	}
 }
