@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 html{
     font-size: 100%;
 }
@@ -14,6 +16,31 @@ ul{
 	list-style-type: none;
 }
 /* typography */
+h1{
+	font-family: Fredoka, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 5.653rem;
+}
+h2{
+	font-family: Fredoka, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 3.998rem;
+}
+h3{
+	font-family: Fredoka, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 2.827rem;
+}
+h4{
+	font-family: Fredoka,Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.999rem;
+}
+p{
+	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 1.414rem;
+}
 /* temp styles */
 h1, h2,
 header, p {
