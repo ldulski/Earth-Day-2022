@@ -14,6 +14,9 @@ nav, header, section, footer{
 }
 ul{
 	list-style-type: none;
+	font-family: Rubik,Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 1.414rem;
 }
 /* typography */
 h1{
@@ -41,6 +44,12 @@ p{
 	font-weight: 400;
 	font-size: 1.414rem;
 }
+label, input{
+	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
 /* temp styles */
 h1, h2,
 header, p {
@@ -55,25 +64,46 @@ div{
 }
 /* buttons */
 .subscribe-button {
-	box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	background-color:#3d94f6;
-	border-radius:6px;
-	border:1px solid #337fed;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:14px 27px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1570cd;
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 4px 7px #666666;
+	-moz-box-shadow: 0px 4px 7px #666666;
+	box-shadow: 0px 4px 7px #666666;
+	font-family: Fredoka,Arial, Helvetica, sans-serif;
+	color: #f6f1dd;
+	font-size: 20px;
+	background: #3ac6b3;
+	padding: 14px 27px 14px 27px;
+	text-decoration: none;
 }
 .subscribe-button:hover {
-	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
-	background-color:#1e62d0;
+	background: #04a15e;
+	text-decoration: none;
 }
 .subscribe-button:active {
+	position:relative;
+	top:1px;
+}
+.cta-button{
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 4px 7px #666666;
+	-moz-box-shadow: 0px 4px 7px #666666;
+	box-shadow: 0px 4px 7px #666666;
+	font-family: Fredoka,Arial, Helvetica, sans-serif;
+	color: #f6f1dd;
+	font-size: 20px;
+	background: #3ac6b3;
+	padding: 14px 27px 14px 27px;
+	text-decoration: none;	
+}
+.cta-button:hover{
+	background: #04a15e;
+	text-decoration: none;
+}
+.cta-button:active{
 	position:relative;
 	top:1px;
 }
