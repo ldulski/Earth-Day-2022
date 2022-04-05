@@ -186,7 +186,7 @@ nav li a{
     background-color: darkorange;
 }
 .bcb-wrapper{
-    background-color: goldenrod;
+    background-color: #ffb95d;
 }
 .video-wrapper{
     background-color: antiquewhite;
@@ -225,7 +225,7 @@ nav li a{
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: #04A15E;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -238,7 +238,7 @@ nav li a{
   }
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #ffb95d;
 }
 .numbertext{
 	padding: 8px 12px;
