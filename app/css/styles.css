@@ -23,6 +23,7 @@ h1{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 5.653rem;
+	
 }
 h2{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
@@ -43,13 +44,26 @@ p{
 	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
 	font-size: 1.414rem;
+	line-height: 1.688rem;
 }
 label, input{
 	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
 	font-size: 1rem;
 }
-
+a{
+	text-decoration: none;
+	color: #00312A;
+}
+a:hover{
+	color: #04a15e;
+}
+a:active{
+	color: #04a15e;
+}
+a:visited{
+	color: #df6061;
+}
 /* temp styles */
 h1, h2,
 header, p {
@@ -97,6 +111,7 @@ nav li a{
 }
 .subscribe-button:hover {
 	background: #04a15e;
+	color: #f6f1dd;
 	text-decoration: none;
 }
 .subscribe-button:active {
