@@ -1,30 +1,22 @@
-let containerIndex = 1;
-showContainer(containerIndex);
+let slideIndex = 1;
+showSlides(slideIndex);
 
-// Next/previous controls
-function plusContainer(n) {
-  showContainer(containerIndex += n);
+// Next & Previous Controls
+function plusSlides(n){
+   showSlides(slideIndex+= n);
 }
 
-// Thumbnail image controls
-function currentContainer(n) {
-  showContainer(containerIndex = n);
+// Image Controls
+function currentslide(n){
+  showSlides(slideIndex = n);
 }
 
-function showContainer(n) {
+function showSlides(n){ 
   let i;
-  let container = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > container.length) {slideIndex = 1}
-  if (n < 1) {containerIndex = container.length}
-  for (i = 0; i < container.length; i++) {
-    container[i].style.display = "none";
+  let slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length} 
+  for (i = 0; i < slides.length; i++){
+    slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  container[containerIndex-1].style.display = "block";
-  dots[containerIndex-1].className += " active";
-  captionText.innerHTML = dots[containerIndex-1].alt;
 }

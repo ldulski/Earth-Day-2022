@@ -212,11 +212,19 @@ nav li a{
 }
 .bcb-wrapper{
 	box-sizing: border-box;
-	position: relative;
 }
-/* .container{
-
-} */
+.carousel-container{
+	max-width: 1000px;
+	position: relative;
+	margin: 2rem auto;
+	overflow: hidden;
+	background-color: aqua;
+}
+.num-text{
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
 .prev,
 .next {
   cursor: pointer;
@@ -240,8 +248,11 @@ nav li a{
 .next:hover {
   background-color: #ffb95d;
 }
-.numbertext{
-	padding: 8px 12px;
+.slide_text{
+	position: absolute;
+	text-align: center;
+	bottom: 8px;
+	width: 100%;
 }
 /* media queries */
 @media only screen and (max-width: 400px){
