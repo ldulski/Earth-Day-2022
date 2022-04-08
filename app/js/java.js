@@ -20,3 +20,9 @@ function showSlides(n){
     slides[i].style.display = "none";
   }
 }
+// Hamburger Menu
+function menuOnClick(){
+  document.getElementsById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
