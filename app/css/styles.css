@@ -292,9 +292,9 @@ nav li a{
 	  }
 	  
 	  .bar {
-		height: 5px;
+		height: 1px;
 		width: 100%;
-		background-color: #DC052D;
+		background-color: #3ac6b3;
 		display: block;
 		border-radius: 5px;
 		transition: 0.3s ease;
@@ -353,7 +353,7 @@ nav li a{
 	  }
 	  
 	  .change .bar {
-		background-color: white;
+		background-color: #f6f1dd;
 	  }
 	  
 	  .change #bar1 {
