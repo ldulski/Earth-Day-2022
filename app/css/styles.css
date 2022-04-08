@@ -62,7 +62,7 @@ a:active{
 	color: #04a15e;
 }
 a:visited{
-	color: #df6061;
+	color: #f6f1dd;
 }
 /* temp styles */
 h1, h2,
@@ -134,6 +134,7 @@ nav li a{
 }
 .cta-button:hover{
 	background: #04a15e;
+	color: #f6f1dd;
 	text-decoration: none;
 }
 .cta-button:active{
