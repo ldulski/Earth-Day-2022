@@ -223,6 +223,7 @@ label{
 }
 .soil-wrapper{
     background-color: forestgreen;
+
 }
 .herbs-wrapper{
     background-color: crimson;
@@ -247,6 +248,10 @@ label{
 	display: block;
 	max-width: 100px;
 }
+#plant-icon{
+	display: block;
+	max-width: 75px;
+}
 .herbs-cards ul{
 	list-style-type: none;
 	margin: 0;
@@ -261,7 +266,7 @@ label{
 }
 .seedlings{
 	display: block;
-	width: 90%;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
