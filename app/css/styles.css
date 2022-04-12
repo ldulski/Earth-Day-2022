@@ -23,33 +23,33 @@ h1{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 5.653rem;
+	color: #f6f1dd;
 	
 }
 h2{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 3.998rem;
+	color: #00312A;
 }
 h3{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 2.827rem;
+	color: #00312A;
 }
 h4{
 	font-family: Fredoka,Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1.999rem;
+	color: #00312A;
 }
 p{
 	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
 	font-size: 1.414rem;
 	line-height: 1.688rem;
-}
-label, input{
-	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
-	font-weight: 400;
-	font-size: 1rem;
+	color: #00312A;
 }
 a{
 	text-decoration: none;
@@ -176,6 +176,41 @@ nav li a{
 	border-left: 2px solid #00312a;
 	border-top: 2px solid #00312a;
 }
+.submit-button{
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	-moz-box-shadow: 0px 1px 3px #666666;
+	box-shadow: 0px 1px 3px #666666;
+	font-family: Fredoka, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #f6f1dd;
+	font-size: 20px;
+	background: #3ac6b3;
+	padding: 14px 27px 14px 27px;
+	text-decoration: none;
+}
+.submit-button:hover{
+	background: #04a15e;
+	text-decoration: none;
+}
+.submit-button:active{
+	background: #04a15e;
+	text-decoration: none;
+}
+/* form */
+input, select{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+label{
+	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	color: #195148;
+	font-size: 1rem;
+}
 /* wrappers */
 .soil-wrapper{
     background-color: forestgreen;
@@ -198,7 +233,7 @@ nav li a{
 .cta-wrapper{
     background-color: aquamarine;
 }
-/* cards & image carosels */
+/* images, cards & image carosels */
 .herbs-cards ul{
 	list-style-type: none;
 	margin: 0;
@@ -210,6 +245,24 @@ nav li a{
 	float: left;
 	text-align: center;
 	padding: 14px 16px;
+}
+.seedlings{
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.herb-images{
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.crafts{
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .bcb-wrapper{
 	box-sizing: border-box;
