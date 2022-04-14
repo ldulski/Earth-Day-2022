@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 html{
     font-size: 100%;
+	margin: 0;
+}
+*,*::before, *::after{
+	box-sizing: border-box;
 }
 nav, header, section, footer{
     min-width: 320px;
@@ -252,25 +256,22 @@ label{
 	display: block;
 	max-width: 75px;
 }
-.herbs-cards ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-.herbs-cards li{
+.herbs-cards{
 	display: inline;
+	margin: 5px;
+	border: 2px solid #df6061;
 	float: left;
 	text-align: center;
-	padding: 14px 16px;
+	max-width: 180px;
+}
+.herbs-cards > img{
+	width: 20%;
+	height: auto;
+}
+.herbs-cards:hover{
+	border:#00312a 4px solid #777;
 }
 .seedlings{
-	display: block;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.herb-images{
 	display: block;
 	width: 50%;
 	margin-left: auto;
@@ -302,9 +303,9 @@ label{
 	transition: 200ms opacity ease-in-out;
 	transition-delay: 200ms;
 }
-.slide > image{
+.slide > img{
 	display: block;
-	width: 100%;
+	 width: 100%; 
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
