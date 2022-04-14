@@ -3,6 +3,7 @@
 html{
     font-size: 100%;
 	margin: 0;
+	padding: 0;
 }
 *,*::before, *::after{
 	box-sizing: border-box;
@@ -13,7 +14,6 @@ nav, header, section, footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-    margin: 0 auto;
 	background-color: lightgrey;
 }
 ul{
@@ -78,11 +78,8 @@ a:visited{
 h1, h2,
 header, p {
   background-color: powderblue;
-  margin-bottom: 8px;
 }
-.abf-wrapper{
-    background-color: pink;
-}
+
 div{
 	padding: 10px;
 }
@@ -229,6 +226,28 @@ label{
     background-color: forestgreen;
 
 }
+.soil-wrapper h2{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	justify-content: flex-start;
+	float: left;
+	text-align: left;
+}
+.soil-wrapper p{
+	padding: 10px 35px 20px 10px;
+	float: left;
+	justify-content: flex-start;
+}
+.soil-wrapper img{
+	margin: 0;
+	padding: 10px 35px 20px 10px;
+	width: 100%;
+	height: auto;
+}
+.mask1{
+	mask-image: url(/images/masking_layer.png);
+	mask-repeat: no-repeat;
+}
 .herbs-wrapper{
     background-color: crimson;
 }
@@ -255,27 +274,19 @@ label{
 #plant-icon{
 	display: block;
 	max-width: 75px;
+	border: 2px solid blue;
 }
-.herbs-cards{
-	display: inline;
+.herbs-cards li{
 	margin: 5px;
+	padding: 5px;
 	border: 2px solid #df6061;
 	float: left;
-	text-align: center;
-	max-width: 180px;
+	text-align: left;
+	width: 250px;
 }
 .herbs-cards > img{
-	width: 20%;
+	width: 100%;
 	height: auto;
-}
-.herbs-cards:hover{
-	border:#00312a 4px solid #777;
-}
-.seedlings{
-	display: block;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
 }
 .crafts{
 	display: block;
