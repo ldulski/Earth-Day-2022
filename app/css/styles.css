@@ -61,6 +61,13 @@ p{
 .subhead-2{
 	color: #df6061;
 }
+.subhead-3{
+	font-family: Fredoka, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1.999rem;
+	color: #00312A;
+
+}
 a{
 	text-decoration: none;
 	color: #00312A;
@@ -254,11 +261,40 @@ label{
 .materials-wrapper{
     background-color: darkorange;
 }
+.materials-wrapper h2{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	justify-content: flex-start;
+	float: left;
+	text-align: left;
+}
+.materials-wrapper ul{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	color: #00312A;
+	
+}
+.materials-wrapper img{
+	margin: 0;
+	padding: 10px 35px 20px 10px;
+	max-width: 100px;
+}
 .bcb-wrapper{
     background-color: #ffb95d;
 }
 .video-wrapper{
     background-color: antiquewhite;
+}
+.video-wrapper h2, h3{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	justify-content: flex-start;
+	float: left;
+	text-align: left;
+}
+.video-wrapper video{
+	width: 100%;
+	height: auto;
 }
 .crafts-wrapper{
     background-color: cornflowerblue;
@@ -283,6 +319,7 @@ label{
 	float: left;
 	text-align: left;
 	width: 250px;
+	color: #00312A;
 }
 .herbs-cards > img{
 	width: 100%;
@@ -316,7 +353,7 @@ label{
 }
 .slide > img{
 	display: block;
-	 width: 100%; 
+	width: 100%; 
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
