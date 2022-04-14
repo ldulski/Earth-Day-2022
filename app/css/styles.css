@@ -299,8 +299,44 @@ label{
 .crafts-wrapper{
     background-color: cornflowerblue;
 }
+.crafts-wrapper h2{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	justify-content: flex-start;
+	float: left;
+	text-align: left;
+}
+.crafts-wrapper p{
+	padding: 10px 35px 20px 10px;
+	float: left;
+	justify-content: flex-start;
+}
+.crafts-wrapper img{
+	margin: 0;
+	padding: 10px 35px 20px 10px;
+	width: 100%;
+	height: auto;
+}
 .cta-wrapper{
     background-color: aquamarine;
+}
+.cta-wrapper h2{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	justify-content: center;
+	text-align: center;
+}
+.cta-wrapper h3, h4{
+	margin: 20px;
+	padding: 20px 35px 20px 35px;
+	justify-content: center;
+	text-align: center;
+}
+.cta-wrapper p{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	justify-content: center;
+	text-align: center;
 }
 /* images, cards & image carosels */
 #logo-img{
