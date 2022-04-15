@@ -4,6 +4,7 @@ html{
     font-size: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #f6f1dd;
 }
 *,*::before, *::after{
 	box-sizing: border-box;
@@ -14,7 +15,7 @@ nav, header, section, footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	background-color: lightgrey;
+	background-color: lightgrey; 
 }
 ul{
 	list-style-type: none;
