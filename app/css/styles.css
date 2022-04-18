@@ -3,6 +3,7 @@
 html{
 	font-size: 100%;
 	background-color: #f6f1dd;
+	scroll-behavior: smooth;
 
 }
 *,*::before, *::after{
@@ -16,13 +17,6 @@ nav, header, section, footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/* background-color: lightgrey;  */
-}
-ul{
-	list-style-type: none;
-	font-family: Rubik,Georgia, 'Times New Roman', Times, serif;
-	font-weight: 400;
-	font-size: 1.414rem;
 }
 /* typography */
 h1{
@@ -88,8 +82,11 @@ a:active{
 a:visited{
 	color: #f6f1dd;
 }
-div{
-	padding: 10px;
+ul{
+	list-style-type: none;
+	font-family: Rubik,Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 1.414rem;
 }
 /* navigation bars */
 .navigation {
@@ -113,6 +110,16 @@ div{
 }
 .navigation li a:hover, .navigation .menu-btn:hover {
 	background-color:#80ED99;
+}
+.logo{
+	font-family: Fredoka, Arial, Helvetica, sans-serif;
+	color: #F6F1DD;
+	text-decoration: none;
+	font-size: 1.999rem;
+	font-weight: 400;
+}
+.logo:hover{
+	color: #F6F1DD;
 }
 .navigation .logo {
 	display: block;
@@ -322,39 +329,57 @@ label{
 	padding: 10px 0px 25px 155px;
 }
 .soil-wrapper{
-    background-color: forestgreen;
+	align-items: center;
+	justify-content: center;
+    background-color: #80ED99;
 	width: 100%;
 	min-height: 100vh;
 	padding-left: 5%;
 	padding-right: 5%;
-	box-sizing: border-box;
 	overflow: hidden;
 
 }
 .soil-wrapper h2{
+	justify-content: flex-start;
 	margin: 0px;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 470px 25px 10px;
 	justify-content: flex-start;
 	float: left;
 	text-align: left;
+	background-color: #df6061;
 }
 .soil-wrapper p{
-	padding: 10px 35px 20px 10px;
+	justify-content: flex-start;
+	margin: 0px;
+	padding: 10px 500px 25px 10px;
 	float: left;
 	justify-content: flex-start;
+	background-color: #df6061;
 }
 .soil-wrapper img{
-	margin: 0;
-	padding: 10px 35px 20px 10px;
-	width: 100%;
+	margin: 0px 0px 0px 550px;
+	flex-basis: 70%;
+	float: right;
+	max-width: 100%;
 	height: auto;
+	background-color: #3ac6b3;
 }
 .mask1{
 	mask-image: url(/images/masking_layer.png);
 	mask-repeat: no-repeat;
 }
+.soil-wrapper .learn-button{
+	margin: 10px 550px 25px 10px;
+	justify-content: flex-start;
+}
 .herbs-wrapper{
-    background-color: crimson;
+	margin-left: 15px;
+    background-color: #F6F1DD;
+	max-width: 100%;
+	height: auto;
+}
+.herbs-wrapper h2{
+	margin: 10px 5px 35px 100px;
 }
 .materials-wrapper{
     background-color: darkorange;
@@ -440,11 +465,11 @@ label{
 	text-align: center;
 }
 /* images, cards & image carosels */
-#logo{
+/* #logo{
 	/* display: block; */
-	width: 100px;
-	margin: 30px 0;
-}
+	/* width: 100px; */
+	/* margin: 30px 0;
+} */ 
 #plant-icon{
 	display: block;
 	max-width: 75px;
@@ -452,11 +477,10 @@ label{
 }
 .herbs-cards li{
 	margin: 5px;
-	padding: 5px;
 	border: 2px solid #df6061;
 	float: left;
 	text-align: left;
-	width: 250px;
+	max-width: 175px;
 	color: #00312A;
 }
 .herbs-cards > img{
