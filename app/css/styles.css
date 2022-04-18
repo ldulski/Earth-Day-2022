@@ -95,7 +95,7 @@ div{
 .navigation {
 	background-color: #00312A;
 	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-	position:fixed;
+	/* position:fixed; */
 	width: 100%;
 	z-index: 3;
 }
@@ -416,7 +416,7 @@ label{
 	text-align: center;
 }
 /* images, cards & image carosels */
-#logo-img{
+#logo{
 	display: block;
 	max-width: 100px;
 }
