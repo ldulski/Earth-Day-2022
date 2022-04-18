@@ -18,15 +18,12 @@
  <div><a id="top"></a></div> 
 
 <div class="abf-wrapper"><!---abf area-->
-  <div id="menu">
-    <div id="menu-bar" onclick="menuOnClick()">
-      <div id="bar1" class="bar"></div>
-      <div id="bar2" class="bar"></div>
-      <div id="bar3" class="bar"></div>
-    </div>
-  <nav class= "nav" id="nav"> 
-    <img id="logo-img" src="/images/logo.png" alt="" style="width:100%">
-  <ul>
+  <nav class= "navigation" id="nav"> 
+  <a><img id="logo-img" src="/images/logo.png" alt="" style="width:100%"></a>
+  <input class=""menu-btn" type="checkbox" id="menu-btn"/>
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span>
+  </label>
+  <ul class="menu">
     <li><a href="#discover">Discover</a></li>
     <li><a href="#build">Build</a></li>
     <li><a href="#dig-deeper">Dig Deeper</a></li>
@@ -34,7 +31,6 @@
     <li><a href="#cta" class="subscribe-button">Subscribe</a></li>
   </ul>  
   </nav>  
-  <div class="menu-bg" id="menu-bg"></div>
   <header> 
   <h1 class="three-unit-gap-l">Earth Day 2022</h1>  
   <h2 class="two-unit-gap-l subhead">Together we'll build a <em class="subhead-2">compost bin</em></h2>
