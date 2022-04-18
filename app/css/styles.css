@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 html{
     font-size: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #f6f1dd;
+
 }
 *,*::before, *::after{
 	box-sizing: border-box;
+	background-color: #f6f1dd;
+	margin: 0;
+	padding: 0;
 }
 nav, header, section, footer{
     min-width: 320px;
@@ -29,25 +30,28 @@ h1{
 	font-weight: 600;
 	font-size: 5.653rem;
 	color: #f6f1dd;
-	
+	margin: 120px 0 30px 0; 
 }
 h2{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 3.998rem;
 	color: #00312A;
+	margin: 30px 0 40px;
 }
 h3{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 2.827rem;
 	color: #00312A;
+	margin-top: 50px;
 }
 h4{
 	font-family: Fredoka,Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1.999rem;
 	color: #00312A;
+	margin: 15px;
 }
 p{
 	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
@@ -55,6 +59,7 @@ p{
 	font-size: 1.414rem;
 	line-height: 1.688rem;
 	color: #00312A;
+	margin-bottom: 30px;
 }
 .subhead{
 	color: #f6f1dd;
@@ -95,7 +100,6 @@ div{
 .navigation {
 	background-color: #00312A;
 	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-	/* position:fixed; */
 	width: 100%;
 	z-index: 3;
 }
@@ -129,7 +133,6 @@ div{
 .navigation .menu-icon {
 	cursor: pointer;
 	display: inline-block;
-	float: right;
 	padding: 28px 20px;
 	position: relative;
 	user-select: none;
@@ -304,10 +307,25 @@ label{
 }
 /* wrappers */
 .abf-wrapper{
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	overflow: hidden;
 	background-image: url("/images/hero_image_desktop.jpg");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
 }
 .soil-wrapper{
     background-color: forestgreen;
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	overflow: hidden;
 
 }
 .soil-wrapper h2{
@@ -361,6 +379,9 @@ label{
 }
 .video-wrapper{
     background-color: antiquewhite;
+	margin: 0 auto;
+	width: 100%;  
+	height: 30%;
 }
 .video-wrapper h2, h3{
 	margin: 0px;
@@ -417,8 +438,9 @@ label{
 }
 /* images, cards & image carosels */
 #logo{
-	display: block;
-	max-width: 100px;
+	/* display: block; */
+	width: 100px;
+	margin: 30px 0;
 }
 #plant-icon{
 	display: block;
