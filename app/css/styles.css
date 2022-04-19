@@ -384,6 +384,10 @@ label{
 }
 .materials-wrapper{
     background-color: darkorange;
+	margin-left: 20px;
+	padding: 10px 15px;
+	max-width: 100%;
+	height: auto;
 }
 .materials-wrapper h2{
 	margin: 0px;
@@ -396,7 +400,11 @@ label{
 	margin: 0px;
 	padding: 10px 15px 10px 15px;
 	color: #00312A;
-	
+}
+.materials-wrapper .tools{
+	margin-top: 25px;
+	padding-right: 550px; 
+
 }
 .materials-wrapper img{
 	margin: 0;
