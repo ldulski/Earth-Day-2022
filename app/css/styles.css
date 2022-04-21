@@ -383,7 +383,7 @@ label{
 	margin: 15px 0px 35px 300px;
 }
 .materials-wrapper{
-    background-color: darkorange;
+    background-color: #F6F1DD;
 	margin-left: 20px;
 	padding: 10px 15px;
 	max-width: 100%;
@@ -404,53 +404,99 @@ label{
 .materials-wrapper .tools{
 	margin-top: 25px;
 	padding-right: 550px; 
-
 }
 .materials-wrapper img{
-	margin: 0;
+	margin: 40px 50px 0px 850px;
 	padding: 10px 35px 20px 10px;
-	max-width: 100px;
+	max-width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 .bcb-wrapper{
-    background-color: #ffb95d;
+	box-sizing: border-box;
+    background-color: #F6F1DD;
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	overflow: hidden;
+}
+.num-text{
+	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 2.827rem;
+	line-height: 1.688rem;
+	color: #00312A;
+	margin: 35px;
+}
+.bcb-wrapper h3{
+	margin: 0px;
+}
+.bcb-wrapper p{
+	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 1.414rem;
+	line-height: 1.688rem;
+	color: #00312A;
+	margin: 35px;
 }
 .video-wrapper{
-    background-color: antiquewhite;
+    background-color: #F6F1DD;
 	margin: 0 auto;
 	width: 100%;  
-	height: 30%;
+	height: auto;
 }
-.video-wrapper h2, h3{
+.video-wrapper h2{
 	margin: 0px;
 	padding: 10px 15px 10px 15px;
-	justify-content: flex-start;
 	float: left;
+	text-align: left;
+}
+.video-wrapper h3{
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
 	text-align: left;
 }
 .video-wrapper video{
 	width: 100%;
-	height: auto;
+	margin-top: 75px;
+	position: relative;
+	overflow: hidden;
 }
 .crafts-wrapper{
-    background-color: cornflowerblue;
+	align-items: center;
+	justify-content: center;
+    background-color: #80ED99;
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 5%;
+	padding-right: 5%;
+	overflow: hidden;
 }
 .crafts-wrapper h2{
+	justify-content: flex-start;
 	margin: 0px;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 470px 25px 10px;
 	justify-content: flex-start;
 	float: left;
 	text-align: left;
+	background-color: #df6061;
 }
 .crafts-wrapper p{
-	padding: 10px 35px 20px 10px;
+	justify-content: flex-start;
+	margin: 0px;
+	padding: 10px 500px 25px 10px;
 	float: left;
 	justify-content: flex-start;
+	background-color: #df6061;
 }
 .crafts-wrapper img{
-	margin: 0;
-	padding: 10px 35px 20px 10px;
-	width: 100%;
+	margin: 0px 0px 0px 550px;
+	flex-basis: 70%;
+	float: right;
+	max-width: 100%;
 	height: auto;
+	background-color: #3ac6b3;
 }
 .cta-wrapper{
     background-color: aquamarine;
@@ -461,17 +507,21 @@ label{
 	justify-content: center;
 	text-align: center;
 }
-.cta-wrapper h3, h4{
-	margin: 20px;
+.cta-wrapper h4{
+	margin-top: 20px;
 	padding: 20px 35px 20px 35px;
 	justify-content: center;
 	text-align: center;
 }
 .cta-wrapper p{
-	margin: 0px;
-	padding: 10px 15px 10px 15px;
+	margin: 10px 150px;
 	justify-content: center;
 	text-align: center;
+	justify-content: center;
+}
+.cta-wrapper form{
+	margin: 20px 150px;
+	justify-content: center;
 }
 /* images, cards & image carosels */
 /* #logo{
@@ -501,9 +551,6 @@ label{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-}
-.bcb-wrapper{
-	box-sizing: border-box;
 }
 .carosel{
 	width: 100vw;
@@ -547,7 +594,7 @@ label{
   font-size: 4rem;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: #ffb95d;
+  background-color: #f6f1dd;
   -webkit-user-select: none;
 }
 .prev{
