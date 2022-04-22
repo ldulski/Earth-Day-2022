@@ -464,39 +464,45 @@ label{
 	overflow: hidden;
 }
 .crafts-wrapper{
-	align-items: center;
-	justify-content: center;
     background-color: #F6F1DD;
 	width: 100%;
 	min-height: 100vh;
-	padding-left: 5%;
-	padding-right: 5%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: space-between;
+}
+.flex-items2{
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
 }
 .crafts-wrapper h2{
-	justify-content: flex-start;
-	margin: 0px;
+	margin: 0px 15px;
 	padding: 10px 470px 25px 10px;
-	justify-content: flex-start;
-	float: left;
 	text-align: left;
-	background-color: #df6061;
 }
 .crafts-wrapper p{
-	justify-content: flex-start;
-	margin: 0px;
-	padding: 10px 500px 25px 10px;
-	float: left;
-	justify-content: flex-start;
-	background-color: #df6061;
+	margin: 10px 15px;
+	padding: 0px 800px 15px 0px;
+	/* padding: 0px 500px 25px 10px; */
 }
 .crafts-wrapper img{
 	margin: 0px 0px 0px 550px;
-	flex-basis: 70%;
-	float: right;
 	max-width: 100%;
 	height: auto;
 	background-color: #3ac6b3;
+}
+.crafts-wrapper a{
+	margin: 10px 15px;
+	padding: 14px 27px;
+	color: #00312A;
 }
 .cta-wrapper{
 	display: flex;
@@ -510,7 +516,7 @@ label{
 	align-items: center;
 	align-content: center;
 }
-.flex-items{
+.flex-items1{
 	display: block;
 	flex-grow: 0;
 	flex-shrink: 1;
