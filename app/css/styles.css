@@ -300,8 +300,8 @@ label{
 .abf-wrapper{
 	width: 100%;
 	min-height: 100vh;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
 	box-sizing: border-box;
 	overflow: hidden;
 	background-image: url("/images/hero_image_desktop.jpg");
@@ -323,8 +323,8 @@ label{
     background-color: #80ED99;
 	width: 100%;
 	min-height: 100vh;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
 	overflow: hidden;
 
 }
@@ -363,7 +363,8 @@ label{
 }
 .herbs-wrapper{
 	margin-left: 20px;
-	padding: 10px 15px;
+	padding-left: 15%;
+	padding-right: 15%;
     background-color: #F6F1DD;
 	max-width: 100%;
 	height: auto;
@@ -374,7 +375,8 @@ label{
 .materials-wrapper{
     background-color: #F6F1DD;
 	margin-left: 20px;
-	padding: 10px 15px;
+	padding-left: 15%;
+	padding-right: 15%;
 	max-width: 100%;
 	height: auto;
 }
@@ -395,7 +397,7 @@ label{
 	padding-right: 550px; 
 }
 .materials-wrapper img{
-	margin: 40px 50px 0px 850px;
+	margin: 40px 50px 0px 550px;
 	padding: 10px 35px 20px 10px;
 	max-width: 100%;
 	align-items: center;
@@ -433,8 +435,10 @@ label{
 .video-wrapper{
     background-color: #F6F1DD;
 	margin: 0 auto;
-	width: 100%;  
-	height: auto;
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 .video-wrapper h2{
 	margin: 0px;
@@ -452,10 +456,13 @@ label{
 	margin-top: 75px;
 	position: relative;
 	overflow: hidden;
+	object-fit: contain;
 }
 .crafts-wrapper{
     background-color: #F6F1DD;
 	width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
 	min-height: 100vh;
 	overflow: hidden;
 	display: flex;
@@ -536,6 +543,8 @@ label{
 	display: flex;
 	width: 100%;
 	min-height: 100vh;
+	padding-left: 15%;
+	padding-right: 15%;
 	overflow: hidden;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -576,12 +585,12 @@ label{
 	margin-left: auto;
 	margin-right: auto;
 }
-.carosel{
+.carousel{
 	width: 100vw;
 	height: 100vh;
 	position: relative;
 }
-.carosel > ul{
+.carousel > ul{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
