@@ -643,7 +643,7 @@ label{
   background-color: #f6f1dd;
 }
 .prev:focus, .next:focus{
-	outline: 1px solid #00312A;
+	outline: 1px solid #04A15E;
 }
 
 /* media queries */
