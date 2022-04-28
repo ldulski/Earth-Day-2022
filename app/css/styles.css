@@ -80,7 +80,7 @@ a:active{
 	color: #04a15e;
 }
 a:visited{
-	color: #f6f1dd;
+	color: #DF6061;
 }
 ul{
 	list-style-type: none;
@@ -252,7 +252,7 @@ ul{
 	
 }
 .learn-button:hover{
-	background: #00312a;
+	background-color: #00312a;
 	color: #f6f1dd;
 	text-decoration: none;
 }
@@ -261,6 +261,7 @@ ul{
 	top:1px;
 	color: #00312a;
 }
+
 .submit-button{
 	-webkit-border-radius: 4;
 	-moz-border-radius: 4;
