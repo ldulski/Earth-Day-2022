@@ -1,2 +1,2 @@
 # Earth-Day-2022
- Project 1 for GDES315 
+A website for families to use to celebrate Earth Day and teach children about gardening. 
