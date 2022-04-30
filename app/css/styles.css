@@ -139,7 +139,7 @@ ul{
 	user-select: none;
 }
 .navigation .menu-icon .navicon {
-	background: #333;
+	background: #f6f1dd;
 	display: block;
 	height: 2px;
 	position: relative;
@@ -148,7 +148,7 @@ ul{
 }
 .navigation .menu-icon .navicon:before,
 .navigation .menu-icon .navicon:after {
-  background: #333;
+  background: #f6f1dd;
   content: '';
   display: block;
   height: 100%;
@@ -316,7 +316,6 @@ label{
 }
 .abf-wrapper p{
 	margin: 30px 10px; 
-	/* padding: 10px 0px 25px 155px; */
 	padding-left: 20%;
 	padding-right: 20%;
 	text-align: center;
@@ -333,7 +332,6 @@ label{
 	margin: 0px;
 	margin-bottom: 20px;
 	padding-right: 40%;
-	justify-content: flex-start;
 	float: left;
 	text-align: left;
 	background-color: #df6061;
@@ -343,7 +341,6 @@ label{
 	margin-bottom: 20px;
 	padding-right: 65%;
 	float: left;
-	justify-content: flex-start;
 	background-color: #df6061;
 }
 .soil-wrapper img{
@@ -647,35 +644,131 @@ label{
 	outline: 1px solid #04A15E;
 }
 
-/* media queries */
-@media only screen and (max-width: 400px){
-	header{
+/* media queries 400px = 25em */
+@media only screen and (max-width: 25em){
+	/* wrappers */
+	.abf-wrapper{
+		width: 100%;
+		min-height: 100vh;
+		padding-left: 5%;
+		padding-right: 5%;
+		box-sizing: border-box;
 		background-image: url(/images/hero_image_mobile.jpg);
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		background-size: cover;
 	}
+	.abf-wrapper h2 {
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: left;
+	}
+	.abf-wrapper p{
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: left;
+	}
+	.abf-wrapper .cta-button{
+		padding-left: 5%;
+		padding-right: 5%;
+		float: right;
+	}
+	.soil-wrapper{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.soil-wrapper p{
+		margin: 0px;
+		text-align: left;
+	}
+	.soil-wrapper img{
+		margin: 0;
+		max-width: 100%;
+		height: auto;
+	}
+	.herbs-wrapper{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.herbs-cards{
+		max-width: 100%;
+		height: auto;
+	}
+	.materials-wrapper{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;	
+	}
+	.bcb-wrapper{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.slide img{
+		display: block;
+		width: 50%; 
+		height: 50%;
+		object-fit: contain;
+		object-position: center;
+		margin: 0px 85px;
+	}
+	.prev, .next{
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		z-index: 2;
+		width: auto;
+		padding: 16px;
+		margin-top: -50px;
+		color: #04A15E;
+		font-size: 2rem;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+		background-color: #f6f1dd;
+		-webkit-user-select: none;
+	}
+	.video-wrapper{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	video{
+		position: relative;
+		object-fit: cover;
+	}
+	.crafts-wrapper{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.cta-wrapper{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.footer{
+		margin: 0px;
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: left;
+	}
+/* typography */
 	h1{
-		font-family: Fredoka, Arial, Helvetica, sans-serif; 
-		font-weight: 400; 
-		font-size: 2.826rem;
+		display: none;
 	}
 	h2{ 
-		font-family: Fredoka, Arial, Helvetica, sans-serif; 
-		font-weight: 600;
-		font-size: 2.826rem;
+		font-size: 3rem;
 	}
 	h3, h4{
-		font-family: Fredoka,Arial, Helvetica, sans-serif;
-		font-weight: 600;
-		font-size: 1.999rem;
+		font-size: 2rem;
 	}
 	p{
-		font-family: Rubik,Georgia, 'Times New Roman', Times, serif;
-		font-weight: 400;
-		font-size: 1.063rem;
+		font-size: 1rem;
 	}
 	
 }
-/* 48em = 768px */
-
+/* 48em = 768px hamburger menu*/
 @media (min-width: 48em) {
 	.navigation li {
 	  float: left;
