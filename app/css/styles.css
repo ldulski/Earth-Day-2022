@@ -676,10 +676,19 @@ label{
 	.soil-wrapper{
 		padding-left: 5%;
 		padding-right: 5%;
+		
+	}
+	.soil-wrapper h2{
+		margin: 0px;
+		text-align: left;
+		padding-right: 0%;
+		background-color: #f6f1dd;
 	}
 	.soil-wrapper p{
 		margin: 0px;
 		text-align: left;
+		padding-right: 0%;
+		background-color: #f6f1dd;
 	}
 	.soil-wrapper img{
 		margin: 0;
@@ -691,6 +700,9 @@ label{
 		padding-left: 5%;
 		padding-right: 5%;
 	}
+	.herbs-wrapper h2{
+		padding-right: 0%;
+	}
 	.herbs-cards{
 		max-width: 100%;
 		height: auto;
@@ -699,6 +711,9 @@ label{
 		margin: 0px;
 		padding-left: 5%;
 		padding-right: 5%;	
+	}
+	.materials-wrapper ul{
+		padding-right: 0%;
 	}
 	.bcb-wrapper{
 		margin: 0px;
@@ -742,12 +757,36 @@ label{
 		padding-left: 5%;
 		padding-right: 5%;
 	}
+	.crafts-wrapper h2{
+		text-align: left;
+		padding-right: 0%;
+	}
+	.crafts-wrapper p{
+		padding-right: 0%;
+	}
+	.crafts-wrapper img{
+		margin: 0;
+		max-width: 100%;
+		height: auto;
+	}
 	.cta-wrapper{
 		margin: 0px;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
-	.footer{
+	input, select{
+		width: 100%;
+		padding: 10px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+	label{
+		font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+		font-weight: 400;
+		color: #195148;
+		font-size: 1rem;
+	}
+	.footer-wrapper{
 		margin: 0px;
 		padding-left: 5%;
 		padding-right: 5%;
@@ -765,6 +804,9 @@ label{
 	}
 	p{
 		font-size: 1rem;
+	}
+	li{
+		font-size: 1.438rem;
 	}
 	
 }
