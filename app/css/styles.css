@@ -549,7 +549,7 @@ label{
 }
 .footer-wrapper{
 	display: flex;
-	margin: 5px;
+	margin-bottom: 15px;
 	padding-left: 15%;
 	padding-right: 15%;
 	flex-direction: column;
