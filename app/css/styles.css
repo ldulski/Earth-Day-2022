@@ -169,7 +169,7 @@ ul{
   }
   
  .navigation .menu-btn:checked ~ .menu {
-	max-height: 240px;
+	max-height: 340px;
   }
   
 .navigation .menu-btn:checked ~ .menu-icon .navicon {
@@ -407,7 +407,7 @@ label{
 	min-height: 100vh;
 	padding-left: 15%;
 	padding-right: 15%;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .num-text{
 	font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
@@ -648,11 +648,8 @@ label{
 @media only screen and (max-width: 25em){
 	/* wrappers */
 	.abf-wrapper{
-		width: 100%;
-		min-height: 100vh;
 		padding-left: 5%;
 		padding-right: 5%;
-		box-sizing: border-box;
 		background-image: url(/images/hero_image_mobile.jpg);
 		background-repeat: no-repeat;
 		background-position: center bottom;
@@ -664,14 +661,15 @@ label{
 		text-align: left;
 	}
 	.abf-wrapper p{
+		margin-bottom: 15px;
 		padding-left: 5%;
 		padding-right: 5%;
 		text-align: left;
 	}
-	.abf-wrapper .cta-button{
+	.abf-wrapper a{
 		padding-left: 5%;
 		padding-right: 5%;
-		float: right;
+
 	}
 	.soil-wrapper{
 		padding-left: 5%;
@@ -685,7 +683,7 @@ label{
 		background-color: #f6f1dd;
 	}
 	.soil-wrapper p{
-		margin: 0px;
+		margin-bottom: 10px;
 		text-align: left;
 		padding-right: 0%;
 		background-color: #f6f1dd;
@@ -701,9 +699,12 @@ label{
 		padding-right: 5%;
 	}
 	.herbs-wrapper h2{
-		padding-right: 0%;
+		margin: 10px;
+		padding-left: 5%;
+		text-align: left;
 	}
 	.herbs-cards{
+		margin: 0px;
 		max-width: 100%;
 		height: auto;
 	}
@@ -712,8 +713,22 @@ label{
 		padding-left: 5%;
 		padding-right: 5%;	
 	}
-	.materials-wrapper ul{
-		padding-right: 0%;
+	.tools{
+		text-align: left;
+		margin: 0px;
+		padding: 0%;
+
+	}
+	.compost{
+		text-align: left;
+		margin-bottom: 15px;
+	}
+	.materials-wrapper img{
+		display: none;
+		/* margin: 0px;
+		padding: 0%;
+		display: block;
+		max-width: 75px; */
 	}
 	.bcb-wrapper{
 		margin: 0px;
@@ -749,6 +764,8 @@ label{
 		padding-right: 5%;
 	}
 	video{
+		height: auto;
+		width: 100%;
 		position: relative;
 		object-fit: cover;
 	}
@@ -759,9 +776,11 @@ label{
 	}
 	.crafts-wrapper h2{
 		text-align: left;
+		margin: 0px;
 		padding-right: 0%;
 	}
 	.crafts-wrapper p{
+		margin: 0px;
 		padding-right: 0%;
 	}
 	.crafts-wrapper img{
@@ -808,7 +827,9 @@ label{
 	li{
 		font-size: 1.438rem;
 	}
-	
+	.logo{
+		font-size: 1.414rem;
+	}
 }
 /* 48em = 768px hamburger menu*/
 @media (min-width: 48em) {
