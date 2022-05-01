@@ -321,30 +321,45 @@ label{
 	text-align: center;
 }
 .soil-wrapper{
-	width: 100%;
-	min-height: 100vh;
 	padding-left: 15%;
 	padding-right: 15%;
-
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+.flex-items4{
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 1;
+}
+.flex-items5{
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 2;
 }
 .soil-wrapper h2{
 	margin: 0px;
-	margin-bottom: 20px;
-	padding-right: 40%;
+	margin-bottom: 1.25rem;
+	padding-right: 60%;
 	text-align: left;
-	background-color: #df6061;
 }
 .soil-wrapper p{
 	margin: 0px;
-	margin-bottom: 20px;
-	padding-right: 65%;
-	float: left;
-	background-color: #df6061;
+	padding-right: 50%;
+	margin-bottom: 1.25rem;
+	text-align: left;
 }
 .soil-wrapper img{
-	z-index: 3;
-	margin: 0px;
-	max-width: 100%;
+	margin-left: 700px;
 	height: auto;
 }
 .mask1{
@@ -429,7 +444,7 @@ label{
 }
 .video-wrapper{
     background-color: #F6F1DD;
-	margin: 0 auto;
+	margin: 10 auto;
 	width: 100%;
 	min-height: 100vh;
 	padding-left: 15%;
@@ -438,7 +453,6 @@ label{
 .video-wrapper h2{
 	margin: 0px;
 	padding: 10px 15px 10px 15px;
-	float: left;
 	text-align: left;
 }
 .video-wrapper h3{
@@ -450,7 +464,6 @@ label{
 	width: 100%;
 	margin-top: 75px;
 	position: relative;
-	overflow: hidden;
 	object-fit: contain;
 }
 .crafts-wrapper{
@@ -536,11 +549,9 @@ label{
 }
 .footer-wrapper{
 	display: flex;
-	width: 100%;
-	min-height: 100vh;
+	margin: 5px;
 	padding-left: 15%;
 	padding-right: 15%;
-	overflow: hidden;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: flex-start;
