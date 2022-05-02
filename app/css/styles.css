@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 html{
 	font-size: 100%;
-	background-color: #f6f1dd;
+	background-color: #F7FFFA;
 	scroll-behavior: smooth;
 
 }
@@ -23,7 +23,7 @@ h1{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 5.653rem;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	margin: 120px 0 30px 0; 
 	padding: 0px 175px 0px 50px;
 }
@@ -57,7 +57,7 @@ p{
 	margin-bottom: 30px;
 }
 .subhead{
-	color: #f6f1dd;
+	color: #F7FFFA;
 }
 .subhead-2{
 	color: #df6061;
@@ -104,7 +104,7 @@ ul{
 .navigation li a {
 	display: block;
 	padding: 20px 20px;
-	color: #F6F1DD;
+	color: #F7FFFA;
 	text-decoration: none;
 }
 .navigation li a:hover, .navigation .menu-btn:hover {
@@ -112,13 +112,13 @@ ul{
 }
 .logo{
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
-	color: #F6F1DD;
+	color: #F7FFFA;
 	text-decoration: none;
 	font-size: 1.999rem;
 	font-weight: 600;
 }
 .logo:hover{
-	color: #F6F1DD;
+	color: #F7FFFA;
 }
 .navigation .logo {
 	display: block;
@@ -139,7 +139,7 @@ ul{
 	user-select: none;
 }
 .navigation .menu-icon .navicon {
-	background: #f6f1dd;
+	background: #F7FFFA;
 	display: block;
 	height: 2px;
 	position: relative;
@@ -148,7 +148,7 @@ ul{
 }
 .navigation .menu-icon .navicon:before,
 .navigation .menu-icon .navicon:after {
-  background: #f6f1dd;
+  background: #F7FFFA;
   content: '';
   display: block;
   height: 100%;
@@ -198,7 +198,7 @@ ul{
 	-moz-box-shadow: 0px 4px 7px #666666;
 	box-shadow: 0px 4px 7px #666666;
 	font-family: Rubik,Georgia, 'Times New Roman', Times, serif;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	font-size: 1rem;
 	background: #3ac6b3;
 	padding: 14px 27px 14px 27px;
@@ -206,7 +206,7 @@ ul{
 }
 .subscribe-button:hover {
 	background: #04a15e;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	text-decoration: none;
 }
 .subscribe-button:active {
@@ -221,7 +221,7 @@ ul{
 	-moz-box-shadow: 0px 4px 7px #666666;
 	box-shadow: 0px 4px 7px #666666;
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	font-size: 20px;
 	background: #3ac6b3;
 	padding: 14px 27px 14px 27px;
@@ -229,7 +229,7 @@ ul{
 }
 .cta-button:hover{
 	background: #04a15e;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	text-decoration: none;
 }
 .cta-button:active{
@@ -253,7 +253,7 @@ ul{
 }
 .learn-button:hover{
 	background-color: #00312a;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	text-decoration: none;
 }
 .learn-button:active{
@@ -270,7 +270,7 @@ ul{
 	box-shadow: 0px 1px 3px #666666;
 	font-family: Fredoka, Arial, Helvetica, sans-serif;
 	font-weight: 400;
-	color: #f6f1dd;
+	color: #F7FFFA;
 	font-size: 20px;
 	background: #3ac6b3;
 	padding: 14px 27px 14px 27px;
@@ -375,7 +375,7 @@ label{
 	margin-bottom: 55px;
 	padding-left: 15%;
 	padding-right: 15%;
-    background-color: #F6F1DD;
+    background-color: #F7FFFA;
 	max-width: 100%;
 	height: auto;
 }
@@ -383,7 +383,7 @@ label{
 	margin: 15px 0px 35px 300px;
 }
 .materials-wrapper{
-    background-color: #F6F1DD;
+    background-color: #F7FFFA;
 	margin-left: 20px;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -415,7 +415,7 @@ label{
 }
 .bcb-wrapper{
 	box-sizing: border-box;
-    background-color: #F6F1DD;
+    background-color: #F7FFFA;
 	width: 100%;
 	min-height: 100vh;
 	padding-left: 15%;
@@ -443,7 +443,7 @@ label{
 	
 }
 .video-wrapper{
-    background-color: #F6F1DD;
+    background-color: #F7FFFA;
 	margin: 10 auto;
 	width: 100%;
 	min-height: 100vh;
@@ -467,7 +467,7 @@ label{
 	object-fit: contain;
 }
 .crafts-wrapper{
-    background-color: #F6F1DD;
+    background-color: #F7FFFA;
 	width: 100%;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -510,7 +510,7 @@ label{
 }
 .cta-wrapper{
 	display: flex;
-    background-color: #F6F1DD;
+    background-color: #F7FFFA;
 	width: 100%;
 	min-height: 100vh;
 	overflow: hidden;
@@ -634,7 +634,7 @@ label{
   font-size: 4rem;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: #f6f1dd;
+  background-color: #F7FFFA;
   -webkit-user-select: none;
 }
 .prev{
@@ -647,7 +647,7 @@ label{
   }
 .prev:hover,
 .next:hover, .prev:focus, .next:focus{
-  background-color: #f6f1dd;
+  background-color: #F7FFFA;
 }
 .prev:focus, .next:focus{
 	outline: 1px solid #04A15E;
@@ -689,13 +689,13 @@ label{
 		margin: 0px;
 		text-align: left;
 		padding-right: 0%;
-		background-color: #f6f1dd;
+		background-color: #F7FFFA;
 	}
 	.soil-wrapper p{
 		margin-bottom: 10px;
 		text-align: left;
 		padding-right: 0%;
-		background-color: #f6f1dd;
+		background-color: #F7FFFA;
 	}
 	.soil-wrapper img{
 		margin: 0;
@@ -764,7 +764,7 @@ label{
 		font-size: 2rem;
 		border-radius: 0 3px 3px 0;
 		user-select: none;
-		background-color: #f6f1dd;
+		background-color: #F7FFFA;
 		-webkit-user-select: none;
 	}
 	.video-wrapper{
