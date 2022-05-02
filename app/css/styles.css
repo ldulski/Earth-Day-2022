@@ -80,7 +80,7 @@ a:active{
 	color: #04a15e;
 }
 a:visited{
-	color: #DF6061;
+	color: #00312A;
 }
 ul{
 	list-style-type: none;
@@ -547,7 +547,7 @@ label{
 	margin: 20px 510px 15px 510px;
 	padding: 10px 25px;
 }
-.footer-wrapper{
+.colophon-wrapper{
 	display: flex;
 	margin-bottom: 15px;
 	padding-left: 15%;
@@ -565,6 +565,28 @@ label{
 	flex-basis: auto;
 	align-self: auto;
 	order: 0;
+}
+footer{
+	margin-top: 25px;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+.flex-items6{
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: auto;
+	align-self: auto;
+	order: 0;
+}
+footer > a{
+	color:#00312A;
 }
 /* images, cards & image carosels */
 #plant-icon{
@@ -814,7 +836,7 @@ label{
 		color: #195148;
 		font-size: 1rem;
 	}
-	.footer-wrapper{
+	.colophon-wrapper{
 		margin: 0px;
 		padding-left: 5%;
 		padding-right: 5%;
