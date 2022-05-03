@@ -120,6 +120,9 @@ ul{
 .logo:hover{
 	color: #F7FFFA;
 }
+.logo:active, .logo:visited{
+	color:#F7FFFA;
+}
 .navigation .logo {
 	display: block;
 	float: left;
@@ -321,45 +324,27 @@ label{
 	text-align: center;
 }
 .soil-wrapper{
+	margin-top: 50px;
 	padding-left: 15%;
 	padding-right: 15%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: flex-start;
-	align-content: flex-start;
 }
-.flex-items4{
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 1;
+.soil-wrapper section{
+	flex: 1;
 }
-.flex-items5{
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 2;
+.soil-wrapper aside{
+	flex: 0 1 600px;
 }
-.soil-wrapper h2{
+
+.soil-wrapper h2, p{
 	margin: 0px;
-	margin-bottom: 1.25rem;
-	padding-right: 60%;
-	text-align: left;
-}
-.soil-wrapper p{
-	margin: 0px;
-	padding-right: 50%;
-	margin-bottom: 1.25rem;
 	text-align: left;
 }
 .soil-wrapper img{
-	margin-left: 700px;
+	margin-left: 55px;
 	height: auto;
 }
 .mask1{
@@ -371,8 +356,8 @@ label{
 	justify-content: flex-start;
 }
 .herbs-wrapper{
+	margin-top: 50px;
 	margin-left: 20px;
-	margin-bottom: 55px;
 	padding-left: 15%;
 	padding-right: 15%;
     background-color: #F7FFFA;
@@ -384,6 +369,7 @@ label{
 }
 .materials-wrapper{
     background-color: #F7FFFA;
+	margin-top: 50px;
 	margin-left: 20px;
 	padding-left: 15%;
 	padding-right: 15%;
@@ -444,7 +430,7 @@ label{
 }
 .video-wrapper{
     background-color: #F7FFFA;
-	margin: 10 auto;
+	margin-top: 50px;
 	width: 100%;
 	min-height: 100vh;
 	padding-left: 15%;
@@ -467,40 +453,25 @@ label{
 	object-fit: contain;
 }
 .crafts-wrapper{
-    background-color: #F7FFFA;
-	width: 100%;
+	margin-top: 50px;
 	padding-left: 15%;
 	padding-right: 15%;
-	min-height: 100vh;
-	overflow: hidden;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-start;
-	align-content: space-between;
+	justify-content: space-around;
 }
-.flex-items2{
-	display: block;
-	flex-grow: 0;
-	flex-shrink: 1;
-	flex-basis: auto;
-	align-self: auto;
-	order: 0;
+.crafts-wrapper section{
+	flex: 1;
 }
-.crafts-wrapper h2{
-	margin: 0px 15px;
-	padding: 10px 470px 25px 10px;
+.crafts-wrapper aside{
+	flex: 0 1 600px;
+}
+.crafts-wrapper h2, p{
+	margin: 0px;
 	text-align: left;
 }
-.crafts-wrapper p{
-	margin: 10px 15px;
-	padding: 0px 800px 15px 0px;
-	/* padding: 0px 500px 25px 10px; */
-}
 .crafts-wrapper img{
-	margin: 0px 0px 0px 550px;
-	max-width: 100%;
 	height: auto;
 }
 .crafts-wrapper a{
@@ -509,6 +480,7 @@ label{
 	color: #00312A;
 }
 .cta-wrapper{
+	margin-top: 50px;
 	display: flex;
     background-color: #F7FFFA;
 	width: 100%;
@@ -567,15 +539,14 @@ label{
 	order: 0;
 }
 footer{
-	margin-top: 25px;
-	padding-left: 15%;
-	padding-right: 15%;
+	margin-top: 55px;
+	padding-left: 45%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	align-content: space-around;
+	align-content: center;
 }
 .flex-items6{
 	display: block;
@@ -584,9 +555,6 @@ footer{
 	flex-basis: auto;
 	align-self: auto;
 	order: 0;
-}
-footer > a{
-	color:#00312A;
 }
 /* images, cards & image carosels */
 #plant-icon{
@@ -652,7 +620,7 @@ footer > a{
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #04A15E;
+  color: #00312A;
   font-size: 4rem;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -672,7 +640,7 @@ footer > a{
   background-color: #F7FFFA;
 }
 .prev:focus, .next:focus{
-	outline: 1px solid #04A15E;
+	outline: 2px solid #00312A;
 }
 
 /* media queries 400px = 25em */
