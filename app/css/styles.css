@@ -333,9 +333,8 @@ label{
 	justify-content: space-around;
 }
 .soil-wrapper section{
-	max-height: 300px;
+	max-height: 200px;
 	flex: 1;
-	background-color: #df6061;
 }
 .soil-wrapper aside{
 	flex: 0 1 600px;
@@ -352,10 +351,6 @@ label{
 .mask1{
 	mask-image: url(/images/masking_layer.png);
 	mask-repeat: no-repeat;
-}
-.soil-wrapper .learn-button{
-	margin: 10px 550px 25px 10px;
-	justify-content: flex-start;
 }
 .herbs-wrapper{
 	margin-top: 50px;
@@ -555,6 +550,10 @@ footer{
 	flex-basis: auto;
 	align-self: auto;
 	order: 0;
+}
+.rtt-arrow{
+	display: block;
+	padding: 20px 0px;
 }
 /* images, cards & image carosels */
 #plant-icon{
