@@ -664,27 +664,25 @@ footer{
 		padding-right: 5%;
 		text-align: left;
 	}
-	.abf-wrapper a{
-		padding-left: 5%;
-		padding-right: 5%;
-
-	}
 	.soil-wrapper{
 		padding-left: 5%;
-		padding-right: 5%;
-		
+		padding-right: 5%;	
+	}
+	.soil-wrapper section{
+		max-height: fit-content;
+	}
+	.soil-wrapper aside{
+		margin-top: 20px;
 	}
 	.soil-wrapper h2{
 		margin: 0px;
 		text-align: left;
 		padding-right: 0%;
-		background-color: #F7FFFA;
 	}
 	.soil-wrapper p{
 		margin-bottom: 10px;
 		text-align: left;
 		padding-right: 0%;
-		background-color: #F7FFFA;
 	}
 	.soil-wrapper img{
 		margin: 0;
@@ -692,7 +690,7 @@ footer{
 		height: auto;
 	}
 	.herbs-wrapper{
-		margin: 0px;
+		margin: 20px 0px;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -707,29 +705,28 @@ footer{
 		height: auto;
 	}
 	.materials-wrapper{
-		margin: 0px;
+		margin: 20px 0px;
 		padding-left: 5%;
 		padding-right: 5%;	
 	}
-	.tools{
-		text-align: left;
+	.materials h2{
 		margin: 0px;
-		padding: 0%;
-
 	}
-	.compost{
+	.materials-wrapper .tools{
 		text-align: left;
-		margin-bottom: 15px;
+		margin: 20px 0px;
+		padding: 0px;
+	}
+	.materials-wrapper .compost{
+		text-align: left;
+		margin: 20px 0px;
+		padding: 0px;
 	}
 	.materials-wrapper img{
 		display: none;
-		/* margin: 0px;
-		padding: 0%;
-		display: block;
-		max-width: 75px; */
 	}
 	.bcb-wrapper{
-		margin: 0px;
+		margin: 25px 0px 0px 0px;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
@@ -763,7 +760,7 @@ footer{
 	}
 	video{
 		height: auto;
-		width: 100%;
+		/* width: 100%; */
 		position: relative;
 		object-fit: cover;
 	}
@@ -771,6 +768,12 @@ footer{
 		margin: 0px;
 		padding-left: 5%;
 		padding-right: 5%;
+	}
+	.crafts-wrapper section{
+		max-height: fit-content;
+	}
+	.crafts-wrapper aside{
+		margin-top: 20px;
 	}
 	.crafts-wrapper h2{
 		text-align: left;
@@ -808,6 +811,12 @@ footer{
 		padding-left: 5%;
 		padding-right: 5%;
 		text-align: left;
+	}
+	footer{
+		padding-left: 20%;
+	}
+	.rtt-arrow{
+		margin: 10px 0px;
 	}
 /* typography */
 	h1{
