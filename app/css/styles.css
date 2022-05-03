@@ -333,19 +333,21 @@ label{
 	justify-content: space-around;
 }
 .soil-wrapper section{
+	max-height: 300px;
 	flex: 1;
+	background-color: #df6061;
 }
 .soil-wrapper aside{
 	flex: 0 1 600px;
 }
 
 .soil-wrapper h2, p{
-	margin: 0px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
 	text-align: left;
 }
 .soil-wrapper img{
-	margin-left: 55px;
-	height: auto;
+	margin-left: 50px;
 }
 .mask1{
 	mask-image: url(/images/masking_layer.png);
@@ -462,23 +464,21 @@ label{
 	justify-content: space-around;
 }
 .crafts-wrapper section{
+	max-height: 200px;
+	padding: 0px;
 	flex: 1;
 }
 .crafts-wrapper aside{
 	flex: 0 1 600px;
 }
 .crafts-wrapper h2, p{
-	margin: 0px;
+	margin: 0px 0px 30px 0px;
 	text-align: left;
 }
 .crafts-wrapper img{
-	height: auto;
+	margin-left: 50px;
 }
-.crafts-wrapper a{
-	margin: 10px 15px;
-	padding: 14px 27px;
-	color: #00312A;
-}
+
 .cta-wrapper{
 	margin-top: 50px;
 	display: flex;
